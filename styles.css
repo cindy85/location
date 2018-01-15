@@ -84,7 +84,7 @@ p {
 }
 
 .bg-dark {
-    color: #eee;
+    color: black;
     background-color: #222;
 }
 
@@ -486,7 +486,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn.btn-primary {
-    background-color: transparent;
+    background-color: black;
     border: 1px solid #f0f0f0;
     border-color: #f0f0f0;
     -webkit-transition: all .35s;
@@ -511,14 +511,14 @@ fieldset[disabled] .btn-default.active {
 
 ::-moz-selection {
     text-shadow: none;
-    color: #fff;
+    color: #222;
     background: #222;
 }
 
 ::selection {
     text-shadow: none;
-    color: #fff;
-    background: #222;
+    color: #222;
+    background: 0 0;
 }
 
 img::selection {
@@ -613,5 +613,10 @@ aside h2 {
 .col-lg-3 h3{
     color: black;
     
+    
+}
+.contact-form 
+{
+ color:black;   
     
 }
