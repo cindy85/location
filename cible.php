@@ -5,7 +5,7 @@ if(isset($_POST["btn"])){
 $email= $_POST['email'];
 $telephone= $_POST['telephone'];
 $message= $_POST['message'];
-$destinataire="cindyb85@hotmail.fr;sylvie.bogaert015@orange.fr";
+$destinataire="contact@location-maison-vacances-a-la-mer.fr";
 $sujet="contact site web";
 $entete='From:'.$email.'';
 $message ='nom:'.$nom.''."\n".
