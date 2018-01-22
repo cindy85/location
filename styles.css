@@ -616,28 +616,47 @@ aside h2 {
     color: black;
 }
 
-# last
-::-webkit-input-placeholder { 
-    color:    #F00;
+# last::-webkit-input-placeholder {
+    color: #F00;
 }
-:-moz-placeholder { 
-   color:    #F00;
-   opacity:  1;
+
+:-moz-placeholder {
+    color: #F00;
+    opacity: 1;
 }
-::-moz-placeholder { 
-   color:    #F00;
-   opacity:  1;
+
+::-moz-placeholder {
+    color: #F00;
+    opacity: 1;
 }
-:-ms-input-placeholder { 
-   color:    #F00;
+
+:-ms-input-placeholder {
+    color: #F00;
 }
-label
-{
-    color:black;
+
+label {
+    color: black;
     float: left;
 }
-.mentions{
-  text-align: justify; 
-   
+
+.mentions {
+    text-align: justify;
+    background-color: black;
+}
+.btn34
+{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+background-color: white;
+border-radius: 20px;
+    font-weight: bold;
+color:#6e66b4;}
     
 }
