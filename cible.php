@@ -5,7 +5,7 @@ if(isset($_POST["btn"])){
 $email= $_POST['email'];
 $telephone= $_POST['telephone'];
 $message= $_POST['message'];
-$destinataire="contact@location-maison-vacances-a-la-mer.fr";
+$destinataire="cindyb85@hotmail.fr";
 $sujet="contact site web";
 $entete='From:'.$email.'';
 $message ='nom:'.$nom.''."\n".
@@ -13,7 +13,7 @@ $message ='nom:'.$nom.''."\n".
     'objet:'.$objet.''."\n".
     'contenumessage : '.$contenumessage.'';
 mail($destinataire, $sujet, $message, $entete);
-header('location:https://www.location-maison-vacances-a-la-mer/message-envoi.html');
+header('location:https://www.locationvacancesvendee.fr/message-envoi.html');
 }
 else{
 echo 'erreur de message'; 
