@@ -1,17 +1,17 @@
 <?php
 header('content-type: text/html; charset=utf-8');
 if(isset($_POST["btn"])){
-    $name= $_POST['nom'];
+    $nom= $_POST['nom'];
 $email= $_POST['email'];
 $telephone= $_POST['telephone'];
 $message= $_POST['message'];
-$destinataire="cindyb85@hotmail.fr";
+$destinataire="cindyb85@hotmail.fr,seb.geo@hotmail.fr";
 $sujet="contact site web";
-$entete='From:'.$email.'';
-$message ='nom:'.$nom.''."\n".
+$entete='From: '.$email.'';
+$message ='nom: '.$nom.''."\n".
             'telephone: '.$telephone.''."\n".
-    'objet:'.$objet.''."\n".
-    'contenumessage : '.$contenumessage.'';
+    
+    'contenumessage: '.$message.'';
 mail($destinataire, $sujet, $message, $entete);
 header('location:https://www.locationvacancesvendee.fr/message-envoi.html');
 }
