@@ -567,12 +567,11 @@ img::-moz-selection {
 
 #the-housse p
 {
- color: black;
-    
-    
-    
+ color: black; 
 }
     
-
+.single_blog_post_content {
+    text-align: justify; 
+}
     
     
